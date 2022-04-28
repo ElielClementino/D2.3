@@ -244,6 +244,10 @@ hr{
     left:20px; 
     border:solid white 1px; 
 }
+.imagemMapaFundoContato{
+    background-image: url(mapa.png);
+    background-repeat:no-repeat;
+}
 .logos{
     width:40px;
     padding:50px;
