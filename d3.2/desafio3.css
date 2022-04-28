@@ -6,21 +6,33 @@
 html {
     scroll-behavior: smooth;
   }
+  .divArrow{
+    float:right;
+      
+  }
+  .flechaFimDaPagina{
+    width:30px;
+    border:solid 5px #000;
+    padding:10px;
+    border-radius:100px;
+    position:fixed;
+    right:0.1%;
+  }
 body{
     font-weight:400;
     color: #293651;
     font-size:22px;
     font-family:"Monstserrat", sans-serif;
 }
-a:hover{
+a:hover:not(.arrowDownNotHover){
     background-color:#ccc;
     color:black;
     border:solid black 1px;
-    border-radius:5px;
+    border-radius:50px;
     box-shadow:5px 5px 5px 5px #000;
     text-transform:uppercase;
     font-weight:900;
-    transform:rotate(10deg);
+    transform:rotate(5deg);
     transition:500ms;
 }
 
@@ -43,7 +55,7 @@ span{
     color:lightseagreen;
     font-weight:lighter;
 }
-button{
+.botao{
     cursor:pointer;
     border:solid 1px;
     border-radius:9px;
@@ -136,41 +148,28 @@ list-style:none;
     display:inline;
     padding:3%;
 }
-progress{
-    color:#000;
-    background-color:rgb(57, 214, 206);
-    height:20px;
-    width:1000px;
-}
-progress::after{
-    content: attr(value) '%';
-   position:relative;
-}
-
 .containerTituloProjetos{
-margin-left:30%;
-
+margin-left:46%;
+position:relative;
+top:170px;
 }
 
-#linhaGrande2{
-    top:120px;
-    left:105px;
-    width:4%;
-    margin-left:20%;
+#linhaGrandeProjetosTitulo{
+    width:4%;;
+    margin-left:20px;
+    bottom:50px;
     position:relative;
     background-color:#add8e6;
 }
-#linhaMedia2{
-    top:120px;
-   left:110px;
+#linhaMediaProjetosTitulo{
     width:0.6%;
     position:relative;
+    bottom:50px;
 }
-#linhaPequena2{
-    top:120px;
-   left:110px;
+#linhaPequenaProjetosTitulo{
     width:0.6%;
     position:relative;
+    bottom:50px;
 }
 
 hr{
@@ -187,7 +186,8 @@ hr{
 .ulProjetos{
     display:inline-table;
     background-color:#fff;
-    margin-left:8%;
+    margin-left:11.5%;
+    margin-bottom:40px;
     padding:25px;
     width:28%;
     height:400px;
@@ -196,16 +196,12 @@ hr{
     vertical-align:top;
 }
 .projetos{
-    height:100%;
-    width:100%;
+    height:fit-content;
+    width:84.5%;
     background:linear-gradient(to right, #ddd, #eee);
     padding:200px;
+}
 
-}
-#projetos{
-    left:425px;
-    top:150px;
-}
 .tituloProjetos{
     position:relative;
     margin-bottom:50px;
@@ -239,26 +235,23 @@ hr{
     bottom:10px;
     position:relative;
     border:solid white 1px;
-    left:10px
+    left:10px;
 }
 .linhaPequenaContatos{
     width:0.6%;
     bottom:10px;
     position:relative;
-    left:20px;
+    left:20px; 
     border:solid white 1px; 
 }
-
 .logos{
     width:40px;
     padding:50px;
-    position:relative;
-    
+    position:relative;    
 }
 .icons{
     display:flex;
     justify-content:center;
-    margin-left:3%;
 }
 .footer{
     margin-top:1%;

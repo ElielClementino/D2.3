@@ -2,19 +2,25 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="d3.2/desafio3.css">
+        <link rel="stylesheet" href="d3.3/responsivoCell.css">
         <title>Desafio 3</title>
     </head>
     <body>
+        <div class="divArrow">
+          <a class="arrowDownNotHover"href="#footer"><img class="flechaFimDaPagina"src="fotos/down-arrow.png" alt="scrollParaFimdaPágina"></a> 
+        </div>
         <header id="cabeca">
             <section class="Apresentacao">
         <h2><span>Olá, sou o</span></h2>
         <h1 class="h1MaisGrosso">Enzo Pascal</h1>
         <h2 class="h2MaisFino">Profissional UI/UX & Web Designer</h2>
         <p>Especialista em Visual Design e Design Strategy. Como profissional, meu foco é criar experiências significativas para as pessoas.</p>
-        <a href="#footer"><button>Mais informações</button></a>
+        <a href="#footer"><button class="botao">Mais informações</button></a>
         <div class="imageContainer">
-            <img src="fotos/hero.png" alt="Foto do Enzo Pascal na pose do herói">
+            <img class="imagemEnzo"src="fotos/hero.png" alt="Foto do Enzo Pascal na pose do herói">
         </div>
         </section>
         </header>
@@ -22,7 +28,7 @@
 <main>
 
             <section class="Progress">
-            <h2>Why You Hire Me ?</h2>
+            <h2 id="servicos">Why You Hire Me ?</h2>
             <hr id="linhaGrande"> <hr id="linhaMedia"> <hr id="linhaPequena">
             <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</P>
 
@@ -50,43 +56,43 @@
             <div class="marcador" id="mark4"></div>
             </section>
             <div class="containerTituloProjetos">
-                <h2 class="tituloProjetos" id="projetos">Projetos</h2>                <hr id="linhaGrande2"> <hr id="linhaMedia2"> <hr id="linhaPequena2">
+                <h2 class="tituloProjetos" id="portfolio">Projetos</h2>                <hr id="linhaGrandeProjetosTitulo"> <hr id="linhaMediaProjetosTitulo"> <hr id="linhaPequenaProjetosTitulo">
             </div>
-                            <section class="projetos">
-                            <ul class="ulProjetos">
-                            <img class="projetosImage" src="fotos/fluxograma.png" alt="Fluxograma Design">
-                            <li class="tituloProjetos">Graphic Design</li>
-                            <li class="liTextoProjeto">
-                                Lorem Ipsum is simply dummyLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum text of the printing and typesetting industry. Lorem Ipsum
-                            </li>
-                            </ul>
+                                <section class="projetos">
+                                <ul class="ulProjetos">
+                                <img class="projetosImage" src="fotos/fluxograma.png" alt="Fluxograma Design">
+                                <li class="tituloProjetos">Graphic Design</li>
+                                <li class="liTextoProjeto">
+                                    Lorem Ipsum is simply dummyLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum text of the printing and typesetting industry. Lorem Ipsum
+                                </li>
+                                </ul>
 
-                            <ul class="ulProjetos">
-                            <img class="projetosImage" src="fotos/representacao.png" alt="Web Design represetanção">
-                            <li class="tituloProjetos">Web Design</li>
-                            <li class="liTextoProjeto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem IpsumLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</li>
-                            </ul>
+                                <ul class="ulProjetos">
+                                <img class="projetosImage" src="fotos/representacao.png" alt="Web Design represetanção">
+                                <li class="tituloProjetos">Web Design</li>
+                                <li class="liTextoProjeto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem IpsumLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</li>
+                                </ul>
 
-                            <ul class="ulProjetos">
-                                <img class="projetosImage" src="fotos/ui.png" alt="UI/UX Design representação">
-                            <li class="tituloProjetos">UI/UX/Design</li>
-                            <li class="liTextoProjeto">Lorem Ipsum is sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsumimply dummy text of the printing and typesetting industry. Lorem Ipsum</li>
-                            </ul>
-                            
-                            <ul class="ulProjetos">
-                            <img class="projetosImage" src="fotos/coding.png" alt="FrontEnd representação">
-                            <li class="tituloProjetos">Frontend Development</li>
-                            <li class="liTextoProjeto">Lorem Ipsum is simply dummyLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum text of the printing and typesetting industry. Lorem Ipsum</li>
-                            </ul>
-                            </section>
-                                        <section class="contatosSection"> 
-                                         <div class="divContatos">
-                                            <h2>Contatos</h2>
-                                            <hr class="linhaGrandeContatos"><hr class="linhaMediaContatos"><hr class="linhaPequenaContatos">
-                                            <p>E-Mail: enzo@example.designer</p>                   
-                                            <p>Fone: +55(11) 991 002 003</p>
-                                            </div>
-                                        </section>
+                                <ul class="ulProjetos">
+                                    <img class="projetosImage" src="fotos/ui.png" alt="UI/UX Design representação">
+                                <li class="tituloProjetos">UI/UX/Design</li>
+                                <li class="liTextoProjeto">Lorem Ipsum is sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsumimply dummy text of the printing and typesetting industry. Lorem Ipsum</li>
+                                </ul>
+                                
+                                <ul class="ulProjetos">
+                                <img class="projetosImage" src="fotos/coding.png" alt="FrontEnd representação">
+                                <li class="tituloProjetos">Frontend Development</li>
+                                <li class="liTextoProjeto">Lorem Ipsum is simply dummyLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum text of the printing and typesetting industry. Lorem Ipsum</li>
+                                </ul>
+                                </section>
+                                            <section class="contatosSection" id="contato">       
+                                            <div class="divContatos">
+                                                <h2>Contatos</h2>
+                                                <hr class="linhaGrandeContatos"><hr class="linhaMediaContatos"><hr class="linhaPequenaContatos">
+                                                <p>E-Mail: enzo@example.designer</p>                   
+                                                <p>Fone: +55(11) 991 002 003</p>
+                                                </div>
+                                            </section>
 
 </main>
                     <footer id="footer"class="footer">
@@ -99,12 +105,12 @@
                         
                         </div>
                                 <h2 id="emailFooter">enzo@example.designer</h2>
-                                <nav>
+                                <nav class="navFooter">
                                     <ul class="ulNavBar">
                                     <li class="liNavBar"><a href="#cabeca">Home</a></li>
-                                    <li class="liNavBar"><a href="service.html" target="_blank">Service</a></li>
-                                    <li class="liNavBar"><a href="portfolio.html" target="_blank">Portfolio</a></li>
-                                    <li class="liNavBar"><a href="contato.html" target="_blank">Contact Us</a></li>
+                                    <li class="liNavBar"><a href="#servicos">Service</a></li>
+                                    <li class="liNavBar"><a href="#portfolio">Portfolio</a></li>
+                                    <li class="liNavBar"><a href="#contato">Contact Us</a></li>
                                     </ul>
                                 </nav>
                                 <p class="textoFooter">Template Designed and Developed by<a href="https://uideck.com" target="_blank"><span>Uldeck</span><a></a></p>
