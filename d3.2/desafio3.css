@@ -152,6 +152,7 @@ list-style:none;
 margin-left:46%;
 position:relative;
 top:170px;
+width: 200px;
 }
 
 #linhaGrandeProjetosTitulo{
@@ -244,10 +245,17 @@ hr{
     left:20px; 
     border:solid white 1px; 
 }
-.imagemMapaFundoContato{
+/**.imagemMapaFundoContato{
     background-image: url(mapa.png);
+    background-position:center;
+    position:relative;
     background-repeat:no-repeat;
-}
+   height:1000px;
+    opacity:0.3;
+    right:200px;
+    background-size:1600px;
+    top:1100px;
+}**/
 .logos{
     width:40px;
     padding:50px;
