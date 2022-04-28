@@ -126,7 +126,7 @@
         }
 }
 
-@media screen and (min-width:960px) and (max-width:1253px){
+@media screen and (max-width:1253px){
     .botao{
         cursor:pointer;
         border:solid 1px;
@@ -344,7 +344,7 @@
         margin-bottom:80px;
     }
 }
-@media screen and (min-width:540px) and (max-width:720px){
+@media screen and (max-width:540px){
     body{
         font-size:15px;
     }
