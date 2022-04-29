@@ -14,7 +14,7 @@
         margin-left:12%;
         }
     header{
-        margin-left:6%;
+        margin-left:8%;
     }
     .imagemEnzo{
         width:200px;
@@ -24,7 +24,7 @@
     }
     .progressCinza{
         background-color:rgba(233, 233, 233, 0.9);
-        width:250px;
+        width:350px;
         height:16px;
         border:solid none 2px;
         border-radius:20px;
@@ -368,13 +368,13 @@
         margin-left:12%;
         }
     header{
-        margin-left:6%;
+        margin-left:10%;
     }
     .imagemEnzo{
         width:200px;
     }
     .Progress{
-        margin-left:6%;
+        margin-left:19%;
     }
     .progressCinza{
         background-color:rgba(233, 233, 233, 0.9);
@@ -393,7 +393,7 @@
             border-radius:20px;
             position:absolute;
             display:inline-block;
-            left:2.6em;
+            left:6.9em;
         }
         #barraVerde2{
             width:175px;
@@ -411,19 +411,19 @@
             border:solid #52b99e 3px;
             display:inline-block;
             position:absolute;
-            left:42%;
+            left:54.2%;
             top:910px;
         }
         #mark2{
-            left:39%;
+            left:50.8%;
             top:988px;
         }
         #mark3{
-            left:47.2%;
+            left:58.8%;
             top:1064px;
         }
         #mark4{
-            left:35.7%;
+            left:47.5%;
             top:1140px;
         }
         .containerTituloProjetos{
@@ -434,7 +434,7 @@
             }
         .ulProjetos{
             position:relative;
-            left:3%;
+            left:10%;
             margin:10px;
             width:250px;
             height:60px;
@@ -442,7 +442,7 @@
         .projetos{
             margin-top:50px;
             height:fit-content;
-            width:70%;
+            width:100%;
             padding:50px;
         }
         .tituloProjetos{
@@ -456,7 +456,7 @@
             left:30px;
         }
         .divContatos{
-            margin:5%;
+            margin:12.5%;
             padding: 15px;
             width:375px;
         }
@@ -468,24 +468,25 @@
         .footer{
             margin-top:1%;
             padding:3%;
-            width:82%;
-           
+            width:100%;  
+            text-align:center; 
+        }
+        .navFooter{
+            position:relative;
+            margin-left:-30px
         }
         #emailFooter{
             font-size:20pt;
         }
         .textoFooter{
-            margin-left:40px;
+            margin-left:100px;
             margin-top:15px;
+            position:relative;
             margin-bottom:40px;
         }
         .icons{
-            margin-left:20%;
+            margin-left:14%;
         }
-        .textoFooter{
-            position:relative;
-            margin-top:20px;
-            margin-bottom:60px;
-        }
+       
         
 }
