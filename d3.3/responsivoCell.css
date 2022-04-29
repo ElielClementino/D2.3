@@ -1,4 +1,4 @@
-@media screen and (min-width:540px) and (max-width:720px){
+@media screen and (max-width:720px){
     body{
         font-size:15px;
     }
@@ -20,7 +20,7 @@
         width:200px;
     }
     .Progress{
-        margin-left:6%;
+        margin-left:8%;
     }
     .progressCinza{
         background-color:rgba(233, 233, 233, 0.9);
