@@ -274,6 +274,7 @@ hr{
     background:linear-gradient(to right, rgba(226, 224, 224, 0.6), rgba(221, 219, 219,0.5));
     max-height:1000px;
     height:auto;
+    width:100%;
 }
 #emailFooter{
     font-size:50pt;
