@@ -5,7 +5,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="d3.2/desafio3.css">
-        <link rel="stylesheet" href="d3.3/responsivoCell.css">
         <title>Desafio 3</title>
     </head>
     <body>
@@ -26,39 +25,29 @@
         </header>
 
 <main>
-
-            <section class="Progress">
-            <h2 id="servicos">Why You Hire Me ?</h2>
-            <hr id="linhaGrande"> <hr id="linhaMedia"> <hr id="linhaPequena">
-            <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</P>
-
-            <h4 class="ContratarTitulo">UI/UX Design</h4>
-          <!-- <progress value="85" max="100">85</progress> -->
-            <div class="progressCinza"><h6 class="porcentagemTexto">85%</h6></div>
-            <div class="progressVerde" id="barraVerde1"></div>
-            <div class="marcador" id="mark"></div>
-
-            <h4 class="ContratarTitulo">Web Design</h4>
-            <!-- <progress value="75" max="100">75</progress> -->
-            <div class="progressCinza"><h6 class="porcentagemTexto">75%</h6></div>
-            <div class="progressVerde" id="barraVerde2"></div>
-            <div class="marcador" id="mark2"></div>
-
-            <h4 class="ContratarTitulo">HTML/CSS</h4>
-            <!-- <progress value="75" max="100">90</progress> -->
-            <div class="progressCinza"><h6 class="porcentagemTexto">90%</h6></div>
-            <div class="progressVerde" id="barraVerde3"></div>
-            <div class="marcador" id="mark3"></div>
-            <h4 class="ContratarTitulo">Sketch</h4>
-            <!-- <progress value="65" max="100">65</progress> -->
-            <div class="progressCinza"><h6 class="porcentagemTexto">65%</h6></div>
-            <div class="progressVerde" id="barraVerde4"></div>
-            <div class="marcador" id="mark4"></div>
-            </section>
-            <div class="containerTituloProjetos">
-                <h2 class="tituloProjetos" id="portfolio">Projetos</h2>                <hr id="linhaGrandeProjetosTitulo"> <hr id="linhaMediaProjetosTitulo"> <hr id="linhaPequenaProjetosTitulo">
-            </div>
+   <section class="progressSection">
+    <h2 id="servicos">Why You Hire Me ?</h2>
+    <hr id="linhaGrande"> <hr id="linhaMedia"> <hr id="linhaPequena">
+    <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</P>
+       <div class="containerProgress">
+        <h4 class="ContratarTitulo">UI/UX Design</h4>
+       <progress class="progressBar" max="100" value="85"></progress>    
+       <label class="porcentagemLabel">85%</label><br>
+       <h4 class="ContratarTitulo">Web Design</h4>
+       <progress class="progressBar" max="100" value="75"></progress>
+       <label class="porcentagemLabel">75%</label><br>
+       <h4 class="ContratarTitulo">HTML/CSS</h4>
+       <progress class="progressBar" max="100" value="90"></progress>
+       <label class="porcentagemLabel">90%</label><br>
+       <h4 class="ContratarTitulo">Sketch</h4>
+       <progress class="progressBar" max="100" value="65"></progress>
+       <label class="porcentagemLabel">65%</label>
+    </div>
+       </section>
                                 <section class="projetos">
+                                    <div class="containerTituloProjetos">
+                                        <h2 class="tituloProjetos" id="portfolio">Projetos</h2>                <hr id="linhaGrandeProjetosTitulo"> <hr id="linhaMediaProjetosTitulo"> <hr id="linhaPequenaProjetosTitulo">
+                                    </div>
                                 <ul class="ulProjetos">
                                 <img class="projetosImage" src="fotos/fluxograma.png" alt="Fluxograma Design">
                                 <li class="tituloProjetos">Graphic Design</li>
@@ -84,8 +73,7 @@
                                 <li class="tituloProjetos">Frontend Development</li>
                                 <li class="liTextoProjeto">Lorem Ipsum is simply dummyLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum text of the printing and typesetting industry. Lorem Ipsum</li>
                                 </ul>
-                              <!--  <div class="imagemMapaFundoContato">    
-                                </div>-->
+
                                 </section>
                                             <section class="contatosSection" id="contato">   
                                             <div class="divContatos">
