@@ -5,16 +5,16 @@
   }
 html {
     scroll-behavior: smooth;
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
   }
   body{
     font-weight:400;
     color: #293651;
     font-size:22px;
     font-family:"Monstserrat", sans-serif;
-    margin:0;
-    padding:0;
-    width:100%;
-    height:100%;
 }
 a:hover{
     background-color:#ccc;
@@ -74,17 +74,58 @@ a{
   margin-top:4%;
   margin-left:15%;
 }
-.progressBar{
-  width:50%;
-  background-color:#20b2aa;
-  color:#20b2aa;
-  height:1rem; 
-  border:none;
-  border-radius:50px;
+.progressCinza,.progressVerde::after{
+    content:"";
 }
-
-progress::-webkit-progress-value{
+.progressCinza{
+    width:50%;
+    background-color:rgb(204, 204, 204);
+    height:19px;
+    position:absolute;
+    border:none;
+    border-radius:5px;
+}
+.progressVerde{
+    height:19px;
+    position:relative;
+    width:50%;
     background-color:#44a88e;
+    border:none;
+    border-radius:5px;
+}
+#progressVerdeSegundo{
+    width:45%;
+}
+#progressVerdeTerceiro{
+    width:55%;
+}
+#progressVerdeQuarto{
+    width:40%;
+}
+.marcador::after{
+    content:" ";
+}
+.marcador{
+width:0.5%;
+background-color:#20b2aa;
+border:solid #fff 3px;
+margin-left:49.3%;
+position:relative;
+color:#20b2aa;
+bottom:25px;
+}
+#marcadorProgressSegundo{
+    margin-left:44.3%;
+}
+#marcadorProgressTerceiro{
+margin-left:54.4%;
+} 
+#marcadorProgressQuarto{
+margin-left:39.6%;
+}
+.porcentagemTexto{
+text-align:right;
+color:rgba(167, 165, 165, 0.9);
 }
 
 .tituloProjetos{
@@ -93,10 +134,6 @@ progress::-webkit-progress-value{
 }
 li{
 list-style:none;
-}
-.liNavBar{
-    display:inline;
-    padding:3%;
 }
 .containerTituloProjetos{
 margin-left:42%;
@@ -132,15 +169,14 @@ hr{
 .liTextoProjeto{
     text-align:left;
     margin-top:50px;
-
 }
 .ulProjetos{
     display:inline-table;
     background-color:#fff;
-    margin-left:8%;
+    margin-left:6%;
     padding:2%;
     width:30%;
-    height:400px;
+    height:500px;
     border:solid #000 2px;
     border-radius:20px;
     vertical-align:top;
@@ -148,16 +184,16 @@ hr{
 .projetos{
     margin-top:8%;
     height:fit-content;
-    width:84.5%;
+    width:100%;
     background:linear-gradient(to right, #ddd, #eee);
-    padding:200px;
+    padding:160px;
 }
 .projetosImage{
     width:20%;
     margin-top:5%;
 }
 .divContatos{
-    margin:10%;
+    margin:8%;
     border-radius:10px;
     width: 80%;
     height:fit-content;
@@ -181,26 +217,22 @@ hr{
 }
 .logos{
     width:40px;
-    padding:50px;
-    position:relative;    
+    padding:50px;   
 }
 .icons{
-    display:flex;
-    justify-content:center;
+    display:inline-block;
+    text-align:center;
 }
 .footer{
     text-align:center;
-    padding:3%;
     background:linear-gradient(to right, rgba(226, 224, 224, 0.6), rgba(221, 219, 219,0.5));
-    max-height:1000px;
-    height:auto;
-    width:100%;
+    height:100%;
+    width:110%;
 }
 #emailFooter{
     font-size:50pt;
 }
-.textoFooter{
-    position:relative;
-    margin-top:20px;
-    margin-bottom:80px;
+.liNavBar{
+    display:inline;
+   padding-right:5%;
 }
