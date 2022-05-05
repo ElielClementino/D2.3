@@ -16,16 +16,24 @@ html {
     font-size:22px;
     font-family:"Monstserrat", sans-serif;
 }
-a:hover{
+.logos:hover{
+    box-shadow:5px 5px 3px 10px #808080;
+    background-color:#d3d3d3;
+    transform:rotate(3deg);
+    transition:500ms;
+}
+
+.ancoraNav:hover,.linkFooterUldeck:hover{
     background-color:#ccc;
-    color:black;
-    border:solid black 1px;
+    color:yellow;
+    padding:10px;
+    border:none;
     border-radius:50px;
     box-shadow:5px 5px 5px 5px #000;
     text-transform:uppercase;
     font-weight:900;
     transform:rotate(5deg);
-    transition:500ms;
+    transition:300ms;
 }
 
     #linhaGrande{
@@ -52,7 +60,7 @@ span{
     border:none;
     border-radius:10px;
     background-color:#44a88e;
-    color:white;
+    color:#fff;
     width:200px;
     height:50px;
 }
@@ -136,7 +144,7 @@ li{
 list-style:none;
 }
 .containerTituloProjetos{
-margin-left:40%;
+margin-left:37%;
 margin-top:-12%;
 }
 .tituloProjetos{
@@ -173,7 +181,7 @@ hr{
 .ulProjetos{
     display:inline-table;
     background-color:#fff;
-    margin-left:6%;
+    margin-left:4.5%;
     padding:2%;
     width:30%;
     height:500px;
@@ -203,21 +211,21 @@ hr{
 }
 .linhaGrandeContatos{
     width:3%;
-    border:solid white 1px;
+    border:solid #fff 1px;
 }
 .linhaMediaContatos{
     width:0.6%;
-    border:solid white 1px;
+    border:solid #fff 1px;
     margin-left:0.8%;
 }
 .linhaPequenaContatos{
     width:0.6%;
     margin-left:0.8%; 
-    border:solid white 1px; 
+    border:solid #fff 1px; 
 }
 .logos{
-    width:40px;
-    padding:50px;   
+    width:2%;
+    padding:3%;   
 }
 .icons{
     display:inline-block;
@@ -234,5 +242,5 @@ hr{
 }
 .liNavBar{
     display:inline;
-   padding-right:5%;
+   margin-right:5%;
 }
