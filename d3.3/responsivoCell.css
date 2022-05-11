@@ -1,0 +1,19 @@
+@media screen and (min-width:250px){
+    .ulProjetos{
+        width:60%;
+        height:500px;
+        margin-left:13%;
+        margin-right:30%;
+    }
+    .projetos{
+        margin-top:8%;
+        height:fit-content;
+        width:fit-content;
+        background:linear-gradient(to right, #ddd, #eee);
+        padding:160px;
+    }
+    .containerTituloProjetos{
+        margin-left:20%;
+        margin-top:-12%;
+        }
+}
