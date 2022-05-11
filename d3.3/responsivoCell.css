@@ -1,8 +1,8 @@
-@media screen and (min-width:250px){
+@media screen and (max-width:540px){
     .ulProjetos{
-        width:60%;
+        width:100%;
         height:500px;
-        margin-left:13%;
+        margin-left:-8%;
         margin-right:30%;
     }
     .projetos{
@@ -15,5 +15,27 @@
     .containerTituloProjetos{
         margin-left:20%;
         margin-top:-12%;
+        }
+        .logos{
+            width:8%;
+            padding:3%;   
+        }
+        .icons{
+            display:inline-block;
+            text-align:center;
+        }
+        .footer{
+            text-align:center;
+            background:linear-gradient(to right, rgba(226, 224, 224, 0.6), rgba(221, 219, 219,0.5));
+            height:100%;
+            width:110%;
+            font-size:15pt;
+        }
+        #emailFooter{
+            font-size:25pt;
+        }
+        .liNavBar{
+            display:inline;
+           margin-right:5%;
         }
 }
